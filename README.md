@@ -32,6 +32,8 @@ cd /kafka
 kafka-console-producer.sh --broker-list localhost:9092 --topic f_topic
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic f_topic
 
+Resources used: 
+
 https://dzone.com/articles/running-apache-kafka-on-windows-os
 https://www.youtube.com/watch?v=WnlX7w4lHvM
 https://www.red-gate.com/simple-talk/dotnet/net-development/using-apache-kafka-with-net/
